@@ -30,11 +30,12 @@ nav{
     padding-left: 200px;
 }
 
-.choisir{
+.text-header{
     text-decoration: none;
     margin: 0 40px 0 0;
     padding: 0 20px 0 20px;
     font-size: 1.1em;
+    color: black;
 }
 
 div a:hover{
