@@ -86,6 +86,7 @@ div a:hover{
 }
 
 .conteneur-recherche{
+    transition: 0.5s;
     height: 50px;
     width: 10%;
     border-radius: 0 10px 10px 0;
@@ -113,6 +114,7 @@ div a:hover{
 }
 
 .filtres{
+    transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -201,6 +203,7 @@ h2{
     margin: 30px 30px 30px 30px;
     background-color: white;
     height: 210px;
+    transition: 0.5s;
     padding: 5px 5px 5px 5px;
     border-radius: 20px 20px 20px 20px;
 }
@@ -253,6 +256,7 @@ article p{
 
 .position-populaires{
     display: flex;
+    transition: 0.5s;
     margin: 0 0 40px 0px;
     padding: 5px 5px 5px 5px;
     width: 320px;
@@ -305,6 +309,7 @@ div h4{
 }
 
 .position-photos{
+    transition: 0.5s;
     margin: 0 30px 30px 30px;
     border-radius: 20px 20px 20px 20px;
     border: 1px solid #F2F2F2;
@@ -330,6 +335,7 @@ div h4{
     margin: 0 0 30px 0;
     background-color: white;
     border: 1px solid #F2F2F2;
+    transition: 0.5s;
 }
 
 .photos-activites{
