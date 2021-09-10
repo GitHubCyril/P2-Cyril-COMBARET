@@ -98,7 +98,6 @@ div a:hover{
 
 .conteneur-recherche:hover{
     cursor: pointer;
-    transform: scale(1.1);
 }
 
 .recherche{
@@ -373,12 +372,9 @@ footer div{
     margin: 30px 250px 0 30px;
 }
 
-/*RESPONSIVE*/
+/*RESPONSIVE TABLETTES*/
 
-@media (max-width:800px) {
-    .bloc2{
-        flex-direction: column-reverse;
-    }
+@media screen and (min-width: 768px) and (max-width: 1560px) {
     
 }
     
