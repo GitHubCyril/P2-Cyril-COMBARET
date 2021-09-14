@@ -38,7 +38,7 @@ nav{
     color: black;
 }
 
-div a:hover{
+header div a:hover{
     color: #0065FC;
     border-top: 2px solid #0065FC;
     padding-top: 60px;
@@ -374,9 +374,14 @@ footer div{
 
 /*RESPONSIVE TABLETTES*/
 
-@media screen and (min-width: 768px) and (max-width: 1560px) {
-    
+@media screen and (max-width: 1589px) {
+    .bloc4{
+        width:360px;
+        
+    }
+
 }
+
     
 
 
