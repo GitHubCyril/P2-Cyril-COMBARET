@@ -50,7 +50,7 @@ header div a:hover{
 
 /*TITRE*/
 
-.bloc1{
+.section-titre-recherche-filtres{
     padding: 20px;
     margin-left: 50px;
 }
@@ -167,7 +167,7 @@ header div a:hover{
 
 /*HEBERGEMENT A MARSEILLE*/
 
-.section2{
+.section-herbergements{
     padding: 0 0 0 30px;
     width: 95%;
     height: 60%;
