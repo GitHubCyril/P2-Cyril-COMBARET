@@ -352,6 +352,22 @@ div h4{
     border: 1px solid #F2F2F2;
 }
 
+.photos-activites3{
+    width: 300px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    border: 1px solid #F2F2F2;
+}
+
+.photos-activites4{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    border: 1px solid #F2F2F2;
+}
+
 .ecart{
     padding: 10px 0 0 20px;
     margin-bottom: 15px;
@@ -372,13 +388,13 @@ footer div{
     margin: 30px 250px 0 30px;
 }
 
-/*RESPONSIVE TABLETTES*/
+/*RESPONSIVE telephone*/
 
-@media screen and (max-width: 1589px) {
-    .bloc4{
-        width:360px;
-        
-    }
+@media screen and (min-width: 500px) {
+   
+    
+    
+    
 
 }
 
