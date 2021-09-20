@@ -380,7 +380,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 200px;
+    height: auto;
     margin-top: 30px;
     background-color: #F2F2F2;
 }
@@ -391,13 +391,34 @@ footer div{
 
 /*RESPONSIVE telephone*/
 
-@media screen and (min-width: 700px) {
+@media screen and (max-width: 375px) {
+    
+    .section-herbergements {
+        padding: 0;
+        width: 100%;
+    }
+    .bloc3 {
+        width: 100%;
+    }
+    .hebergement-marseille {
+        width: 97%;
+    }
+    .placement-hebergements {
+        width: 96%;
+        margin: 0;
+    }
+    .photos1 {
+        width: 95%;
+        
+    }
+
+
    
     
     
     
 
-}
+
 
     
 
