@@ -394,7 +394,7 @@ footer div{
 
 /*RESPONSIVE telephone*/
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .bloc4 {
         width: 100%;
         padding: 0;
@@ -424,6 +424,46 @@ footer div{
     }
     .photos1 {
         width: 100%;
+    }
+    .placement-activites {
+        margin: 0;
+    }
+    .position-photos {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    .photos-activites {
+        height: 140px;
+        width: 100%;
+    }
+    .photos-activites4 {
+        width: 100%;
+    }
+    .photos-activites3 {
+        width: 100%;
+    }
+    .position-photos2 { 
+        width: 100%;
+        margin: 0 0 20px 0px;
+    }
+    .separation {
+        margin: 0 0 20px 10px;
+    }
+    .photos-activites4 {
+        height: 140px;
+    }
+    .position-photos2 {
+        width: 100%;
+    }    
+    .photos-activites {
+        width: 100%;
+    }
+    .photos-activites2 {
+        width: 100%;
+    }
+    
+    .footer {
+        height: auto;
     }
 
 
