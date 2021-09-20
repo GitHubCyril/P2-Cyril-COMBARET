@@ -391,7 +391,7 @@ footer div{
 
 /*RESPONSIVE telephone*/
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
     
     .section-herbergements {
         padding: 0;
@@ -401,15 +401,14 @@ footer div{
         width: 100%;
     }
     .hebergement-marseille {
-        width: 97%;
+        width: 100%;
     }
     .placement-hebergements {
         width: 96%;
-        margin: 0;
+        margin: 10px 0 10px 0;
     }
     .photos1 {
-        width: 95%;
-        
+        width: 100%;
     }
 
 
