@@ -269,13 +269,16 @@ article p{
 }
 
 .position-titre{
+    font-size: 1.1em;
     align-items: center;
     display: flex;
     margin: 30px 0 30px 0;
+    padding-left: 10px;
+
 }
 
 .position-logo{
-    margin-left: 70px;
+    margin-left: 110px;
     font-size: 1.5em;
 }
 
@@ -392,10 +395,22 @@ footer div{
 /*RESPONSIVE telephone*/
 
 @media screen and (max-width: 400px) {
-    
+    .bloc4 {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+    .position-populaires {
+        width: 96%;
+    }
     .section-herbergements {
         padding: 0;
         width: 100%;
+        flex-direction: column-reverse;
+    }
+    .p-titre2 {
+        margin-left: 10px;
+        font-size: 1.1em;
     }
     .bloc3 {
         width: 100%;
@@ -411,6 +426,15 @@ footer div{
         width: 100%;
     }
 
+
+
+
+
+
+}
+    
+    
+    
 
    
     
