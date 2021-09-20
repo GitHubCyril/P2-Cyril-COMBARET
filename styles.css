@@ -394,7 +394,18 @@ footer div{
 
 /*RESPONSIVE telephone*/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
+    .section-titre-recherche-filtres {
+        margin: 0;
+    }
+    .position3 {
+        width: 48px;
+        height: 30px;
+    }
+
+    .conteneur-info {
+        border: 2px solid black;
+    }
     .bloc4 {
         width: 100%;
         padding: 0;
@@ -447,7 +458,7 @@ footer div{
         margin: 0 0 20px 0px;
     }
     .separation {
-        margin: 0 0 20px 10px;
+        margin: 0 0 20px 0px;
     }
     .photos-activites4 {
         height: 140px;
@@ -461,7 +472,6 @@ footer div{
     .photos-activites2 {
         width: 100%;
     }
-    
     .footer {
         height: auto;
     }
