@@ -275,7 +275,7 @@ article p{
 }
 
 .position-logo{
-    margin-left: 100px;
+    margin-left: 70px;
     font-size: 1.5em;
 }
 
@@ -368,6 +368,7 @@ div h4{
     border: 1px solid #F2F2F2;
 }
 
+
 .ecart{
     padding: 10px 0 0 20px;
     margin-bottom: 15px;
@@ -390,7 +391,7 @@ footer div{
 
 /*RESPONSIVE telephone*/
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 700px) {
    
     
     
