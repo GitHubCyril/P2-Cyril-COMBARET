@@ -52,7 +52,7 @@ header div a:hover{
 
 .section-titre-recherche-filtres{
     padding: 20px;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 /*RECHERCHE*/
@@ -113,6 +113,10 @@ header div a:hover{
 }
 
 .bloc-filtres {
+    display: flex;
+}
+
+.bloc-filtres2 {
     display: flex;
 }
 
@@ -403,11 +407,20 @@ footer div{
         flex-direction: column;
     }
     .titre-filtres {
-        
+
     }
     .filtres {
-        margin: 15px 0 8px 0;
+        margin: 15px 10px 8px 0;
     }
+    .bloc-filtres2 {
+        flex-direction: flex-start;
+        flex-wrap: wrap;
+    }
+    
+    .position2 {
+        font-size: 1.0em;
+    }
+    
     .section-titre-recherche-filtres {
         margin: 0;
         padding: 0;
