@@ -112,6 +112,10 @@ header div a:hover{
     align-items: center;
 }
 
+.bloc-filtres {
+    display: flex;
+}
+
 .filtres{
     transition: 0.5s;
     display: flex;
@@ -395,6 +399,15 @@ footer div{
 /*RESPONSIVE telephone*/
 
 @media screen and (max-width: 600px) {
+    .conteneur-filtres {
+        flex-direction: column;
+    }
+    .titre-filtres {
+        
+    }
+    .filtres {
+        margin: 15px 0 8px 0;
+    }
     .section-titre-recherche-filtres {
         margin: 0;
         padding: 0;
@@ -402,7 +415,6 @@ footer div{
     .position3 {
         width: 40px;
         height: 30px;
-        
     }
     .bloc4 {
         width: 100%;
