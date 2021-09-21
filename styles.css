@@ -403,11 +403,22 @@ footer div{
 /*RESPONSIVE telephone*/
 
 @media screen and (max-width: 600px) {
+    header {
+        padding-left: 0%;
+    }
+    .logo-header {
+        padding-left: 20px;
+        min-width: 115px;
+    }
+    header nav {
+        padding-left: 0;
+    }
     .conteneur-filtres {
         flex-direction: column;
     }
     .titre-filtres {
-
+        width: 100%;
+        margin: 30px 0 0 10px;
     }
     .filtres {
         margin: 15px 10px 8px 0;
