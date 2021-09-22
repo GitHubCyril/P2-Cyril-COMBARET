@@ -16,39 +16,36 @@ span i{
 header{
     display: flex;
     flex-wrap: wrap;
-    
     align-items: center;
+    margin: 0 0 0 50px;
+    
 }
 
-.logo-header{
-    margin: 40px 0 0 30px;
-}
-
-nav{
+header nav {
+    width: 90%;
     display: flex;
-    margin: 40px 0 0 30px;
+    justify-content: flex-end;
 }
 
-.text-header{
+header nav a {
+    
     text-decoration: none;
-    font-size: 1.1em;
-    color: black;
-}
-
-.text-header2{
-    margin: 40px 0 0 1000px;
-    text-decoration: none;
-    font-size: 1.1em;
-    color: black;
+    padding: 40px 40px 0 50px
+    
 }
 
 header a:hover{
     color: #0065FC;
     border-top: 2px solid #0065FC;
-    /*padding-top: 20px;*/
+    
+    
 }
 
-.couleur{
+.couleur1{
+    color: black;
+}
+
+.couleur2{
     color: #0065FC;
 }
 
