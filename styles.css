@@ -25,6 +25,7 @@ header nav {
     width: 90%;
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap-reverse;
 }
 
 header nav a {
@@ -401,7 +402,7 @@ footer div{
 
 /*RESPONSIVE DESKTOP*/
 
-@media all and (min-width:560px) and (max-width:1440px) {
+@media all and (min-width:560px) and (max-width:1280px) {
     .bloc4 {
         min-width: 378px;
     }
@@ -429,7 +430,6 @@ footer div{
     header nav {
         padding-left: 0;
         border: none;
-        
     }
     header a:hover{
         color: #0065FC;
