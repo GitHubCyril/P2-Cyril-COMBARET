@@ -37,15 +37,13 @@ header nav a {
 header a:hover{
     color: #0065FC;
     border-top: 2px solid #0065FC;
-    
-    
 }
 
-.couleur1{
+.nav1{
     color: black;
 }
 
-.couleur2{
+.nav2{
     color: #0065FC;
 }
 
@@ -401,10 +399,27 @@ footer div{
     margin: 30px 250px 0 30px;
 }
 
+/*RESPONSIVE DESKTOP*/
+
+@media all and (min-width:560px) and (max-width:1440px) {
+    .bloc4 {
+        min-width: 378px;
+    }
+    .section-herbergements {
+        flex-direction: column-reverse;
+    }
+    .conteneur-filtres {
+        flex-wrap: wrap;
+    }
+}
+
 /*RESPONSIVE telephone*/
 
 @media screen and (max-width: 600px) {
+    /*header*/
+
     header {
+        display: flex;
         padding-left: 0%;
     }
     .logo-header {
@@ -415,8 +430,14 @@ footer div{
         padding-left: 0;
         border: none;
         
-        
     }
+    header a:hover{
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+    }
+
+    /*titre, recherche,filtres,info*/
     .conteneur-filtres {
         flex-direction: column;
     }
@@ -444,6 +465,8 @@ footer div{
         width: 40px;
         height: 30px;
     }
+
+    /*Les plus populaires, Hébergements à Marseille*/
     .bloc4 {
         width: 100%;
         padding: 0;
@@ -481,6 +504,8 @@ footer div{
         width: 100%;
         margin: 0 0 20px 0;
     }
+
+    /*Activités à Marseille*/
     .photos-activites {
         height: 140px;
         width: 100%;
@@ -510,6 +535,8 @@ footer div{
     .photos-activites2 {
         width: 100%;
     }
+
+    /*footer*/
     .footer {
         height: auto;
     }
