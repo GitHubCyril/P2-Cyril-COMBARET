@@ -17,21 +17,18 @@ header{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 0 0 0 50px;
-    
 }
 
 header nav {
     width: 90%;
     display: flex;
     justify-content: flex-end;
-    flex-wrap: wrap-reverse;
+    
 }
 
 header nav a {
-    
     text-decoration: none;
-    padding: 40px 40px 0 50px
+    padding: 30px 40px 0 50px
     
 }
 
@@ -42,10 +39,14 @@ header a:hover{
 
 .nav1{
     color: black;
+    width: 80px;
 }
 
 .nav2{
     color: #0065FC;
+    position: absolute;
+    right: 2px;
+    top: 1px;
 }
 
 /*TITRE*/
@@ -424,7 +425,7 @@ footer div{
         padding-left: 0%;
     }
     .logo-header {
-        padding-left: 20px;
+        padding: 15px 0 0 10px;
         min-width: 115px;
     }
     header nav {
@@ -438,6 +439,7 @@ footer div{
     }
 
     /*titre, recherche,filtres,info*/
+    
     .conteneur-filtres {
         flex-direction: column;
     }
@@ -449,7 +451,6 @@ footer div{
         margin: 15px 10px 8px 0;
     }
     .bloc-filtres2 {
-        flex-direction: flex-start;
         flex-wrap: wrap;
     }
     
@@ -484,12 +485,10 @@ footer div{
         margin-left: 10px;
         font-size: 1.1em;
     }
-    .bloc3 {
+    .bloc3, .hebergement-marseille {
         width: 100%;
     }
-    .hebergement-marseille {
-        width: 100%;
-    }
+    
     .placement-hebergements {
         width: 96%;
         margin: 10px 0 10px 0;
