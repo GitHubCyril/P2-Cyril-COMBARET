@@ -20,7 +20,7 @@ header{
     align-items: center;
 }
 .logo-header {
-    margin: 30px 0 0 30px
+    margin: 30px 0 0 60px
 }
 
 header nav {
@@ -438,20 +438,34 @@ footer div{
     }
     .logo-header {
         min-width: 115px;
+        margin: 50px 0 0 30px;
     }
     header nav {
         padding-left: 0;
         border: none;
     }
-    
     header a:hover{
         color: black;
         border-bottom: 2px solid #0065FC;
         border-top: none;
     }
+    .nav1 {
+        padding-top: 40px;
+    }
+    .nav2 {
+        padding: 40px;
+    }
+    .nav3 {
+       position: absolute;
+       right: 2px;
+       top: 2px; 
+    }
 
     /*titre, recherche,filtres,info*/
-    
+
+    section h1 {
+       margin: 0;
+    }
     .conteneur-filtres {
         flex-direction: column;
     }
@@ -471,7 +485,7 @@ footer div{
     }
     
     .section-titre-recherche-filtres {
-        margin: 10px;
+        margin: 0 0 0 10px;
         padding: 0;
     }
     .position3 {
