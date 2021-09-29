@@ -44,8 +44,11 @@ header a:hover{
 .nav1{
     color: black;
 }
-
 .nav2{
+    color: black;
+}
+
+.nav3{
     color: #0065FC;
 }
 
