@@ -416,13 +416,18 @@ footer div{
 /*RESPONSIVE TABLETTES*/
 
 @media all and (min-width:600px) and (max-width:1280px) {
+    .logo-header {
+        margin-left: 50px;
+    }
     .bloc4 {
         width: 100%;
         padding: 0;
+        background-color: white;
     }
     .position-populaires {
         width: 90%;
         margin: 15px auto;
+        box-shadow: 1px 1px 5px grey;
     }
     .photos2 {
         width: 220px;
@@ -430,12 +435,16 @@ footer div{
     }
     .position-titre {
         justify-content: center;
+        margin-bottom: 10px;
     }
     .position-logo {
         margin-left: 400px;
     }
     .section-herbergements {
         flex-direction: column-reverse;
+    }
+    .p-titre {
+        margin: 30px 0 30px 45px;
     }
     .conteneur-filtres {
         flex-wrap: wrap;
@@ -451,19 +460,23 @@ footer div{
         margin-left: 9%;
     }
     .bloc3 {
-        margin: 30px auto;
         width: 100%;
+        background-color: white;
+    }
+    .p-activites {
+        margin-left: 44px;
     }
     .hebergement-marseille {
         justify-content: center;
     }
     .p-titre2 {
-        margin-left: 20%;
+        margin-left: 6%;
     }
     .placement-hebergements {
         width: 90%;
         height: 250px;
         margin: 15px 0 0 0;
+        box-shadow: 1px 1px 5px grey;
     }
     .photos1 {
         width: 100%;
@@ -474,6 +487,31 @@ footer div{
         padding: 0;
         width: 100%;
     }
+    .placement-activites {
+        margin-left: 20px;
+    }
+    .position-activites {
+        padding: 0;
+    }
+    .separation {
+        box-shadow: 1px 1px 5px grey;
+    }
+    .position-photos {
+        box-shadow: 1px 1px 5px grey;
+    }
+    .photos-activites2 {
+        border: none;
+    }
+    .photos-activites3 {
+        border: none;
+    }
+    .photos-activites4 {
+        border: none;
+    }
+    footer div {
+        margin: 30px 44px 0 30px;
+    }
+    
 
 }
 
