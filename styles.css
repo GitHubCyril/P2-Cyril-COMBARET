@@ -216,6 +216,8 @@ header a:hover{
 
 h2{
     margin: 0;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 .placement-hebergements{
@@ -247,7 +249,7 @@ h3{
     margin: 0 0 0 0;
     padding: 0;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 article p{
@@ -581,20 +583,19 @@ footer div{
         height: 30px;
     }
     
-
     /*Les plus populaires, Hébergements à Marseille*/
     .bloc4 {
         width: 100%;
         padding: 0;
-        margin-bottom: 40px;
         border-radius: 0;
     }
     .position-populaires {
         width: 88%;
         margin-left: 4%;
+        box-shadow: 1px 1px 5px grey;
     }
     .position-logo{
-        margin-left: 50px;
+        margin-left: 115px;
         font-size: 1.5em;
     }
     .position-titre {
@@ -607,10 +608,10 @@ footer div{
         flex-direction: column-reverse;
     }
     .p-titre{
-        margin: 20px 0 30px 20px;
+        margin: 20px 0 30px 25px;
     }
     .p-titre2 {
-        margin-left: 10px;
+        margin-left: 20px;
         font-size: 1.1em;
     }
     .bloc3, .hebergement-marseille {
@@ -627,48 +628,59 @@ footer div{
     .photos1 {
         width: 100%;
     }
+
     .placement-activites {
         margin: 0;
     }
     .position-photos {
         width: 100%;
-        margin: 0 0 20px 0;
+        margin: 0 15px 20px 15px;
+        box-shadow: 1px 1px 5px grey;
+        border: none;
     }
 
     /*Activités à Marseille*/
+    .p-activites {
+        margin-left: 25px;
+    }
+    .position-activites {
+        padding-top: 10px;
+    }
     .photos-activites {
         height: 140px;
         width: 100%;
     }
     .photos-activites4 {
         width: 100%;
+        height: 140px;
+        border: none;
     }
     .photos-activites3 {
         width: 100%;
+        height: 140px;
+        border: none;
+    }
+    .photos-activites2 {
+        border: none;
+        width: 100%;
+        height: 140px;
     }
     .position-photos2 { 
         width: 100%;
         margin: 0 0 20px 0px;
     }
     .separation {
-        margin: 0 0 20px 0px;
+        margin: 0 15px 20px 15px;
+        box-shadow: 1px 1px 5px grey;
+        border: none;
+        height: 188px;
     }
-    .photos-activites4 {
-        height: 140px;
-    }
-    .position-photos2 {
-        width: 100%;
-    }    
-    .photos-activites {
-        width: 100%;
-    }
-    .photos-activites2 {
-        width: 100%;
-    }
-
     /*footer*/
     .footer {
         height: auto;
+    }
+    footer div {
+        margin-right: 20px;
     }
 
 
