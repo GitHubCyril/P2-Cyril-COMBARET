@@ -199,7 +199,7 @@ header a:hover{
 .bloc3{
     border-radius: 20px 20px 20px 20px;
     background-color: #F2F2F2;
-    width: 65%;
+    width: 62%;
 }
 
 .hebergement-marseille{
@@ -227,6 +227,7 @@ h2{
     transition: 0.5s;
     padding: 5px 5px 5px 5px;
     border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 5px grey;
 }
 
 .placement-hebergements:hover{
@@ -265,9 +266,9 @@ article p{
 /*HEBERGEMENT POPULAIRE*/
 
 .bloc4{
-    width: 25%;
+    width: 24%;
     background-color: #F2F2F2;
-    padding-left: 40px;
+    padding-left: 30px;
     border-radius: 20px 20px 20px 20px;
 }
 
@@ -286,6 +287,7 @@ article p{
     width: 320px;
     border-radius: 20px 20px 20px 20px;
     background-color: white;
+    box-shadow: 1px 1px 5px grey;
 }
 
 .position-populaires:hover{
@@ -337,7 +339,7 @@ div h4{
     transition: 0.5s;
     margin: 0 30px 30px 30px;
     border-radius: 20px 20px 20px 20px;
-    border: 1px solid #F2F2F2;
+    box-shadow: 1px 1px 5px grey;
 }
 
 .position-photos:hover{
@@ -358,8 +360,8 @@ div h4{
 .separation{
     border-radius: 20px 20px 20px 20px;
     margin: 0 0 30px 0;
+    box-shadow: 1px 1px 5px grey;
     background-color: white;
-    border: 1px solid #F2F2F2;
     transition: 0.5s;
 }
 
@@ -375,7 +377,6 @@ div h4{
     height: 160px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
-    border: 1px solid #F2F2F2;
 }
 
 .photos-activites3{
@@ -383,7 +384,6 @@ div h4{
     height: 120px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
-    border: 1px solid #F2F2F2;
 }
 
 .photos-activites4{
@@ -391,13 +391,10 @@ div h4{
     height: 200px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
-    border: 1px solid #F2F2F2;
 }
 
-
 .ecart{
-    padding: 10px 0 0 20px;
-    margin-bottom: 15px;
+    padding: 10px 0 10px 20px;
 }
 
 /*FOOTER*/
@@ -414,6 +411,17 @@ footer{
 footer div{
     margin: 30px 250px 0 30px;
 }
+/*RESPONSIVE DESKTOP*/
+
+@media all and (max-width:1600px) {
+    .position-logo {
+        margin-left: 115px;
+    }
+    
+}
+
+
+
 
 /*RESPONSIVE TABLETTES*/
 
