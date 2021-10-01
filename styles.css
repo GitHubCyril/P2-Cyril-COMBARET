@@ -266,7 +266,7 @@ article p{
 /*HEBERGEMENT POPULAIRE*/
 
 .bloc4{
-    width: 24%;
+    width: 364px;
     background-color: #F2F2F2;
     padding-left: 30px;
     border-radius: 20px 20px 20px 20px;
@@ -303,7 +303,7 @@ article p{
 }
 
 .position-logo{
-    margin-left: 60px;
+    margin-left: 115px;
     font-size: 1.5em;
 }
 
@@ -413,10 +413,9 @@ footer div{
 }
 /*RESPONSIVE DESKTOP*/
 
-@media all and (max-width:1600px) {
-    .position-logo {
-        margin-left: 115px;
-    }
+@media all and (min-width:1281px) and (max-width:2000px) {
+    
+   
     
 }
 
@@ -444,11 +443,14 @@ footer div{
         height: 150px;
     }
     .position-titre {
-        justify-content: center;
+        justify-content: start;
         margin-bottom: 10px;
     }
+    .titre-populaires {
+        margin-left: 60px;
+    }
     .position-logo {
-        margin-left: 460px;
+        margin-left: 945px;
     }
     .section-herbergements {
         flex-direction: column-reverse;
