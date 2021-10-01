@@ -73,6 +73,7 @@ header a:hover{
 .recherche{
     display: flex;
     align-items: center;
+    color: white;
 }
 
 .conteneur-icone{
@@ -111,11 +112,6 @@ header a:hover{
 
 .conteneur-recherche:hover{
     cursor: pointer;
-}
-
-.recherche{
-    display: flex;
-    color: white;
 }
 
 /*FILTRES*/
