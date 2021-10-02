@@ -568,6 +568,31 @@ footer p:hover {
        top: 2px; 
        padding: 70px 20px 0 20px;
     }
+    .conteneur-recherche {
+        display: flex;
+        align-items: center;
+        color: white;
+        display: none;
+    }
+    .recherche2 {
+        display: inline;
+        color: white;
+        
+    }
+    .conteneur-recherche2 {
+        display: flex;
+        align-items: center;
+        
+        color: white;
+        display: inline;
+        transition: 0.5s;
+        height: 50px;
+        width: 10%;
+        border-radius: 0 10px 10px 0;
+        text-align: center;
+        justify-content: center;
+        background-color: #0065FC;
+    }
 
     /*titre, recherche,filtres,info*/
 
