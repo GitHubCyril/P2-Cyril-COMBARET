@@ -102,7 +102,7 @@ header a:hover{
 .conteneur-recherche{
     transition: 0.5s;
     height: 50px;
-    width: 10%;
+    width: 140px;
     border-radius: 0 10px 10px 0;
     text-align: center;
     justify-content: center;
@@ -218,7 +218,7 @@ h2{
 }
 
 .placement-hebergements{
-    margin: 30px 30px 30px 30px;
+    margin: 15px;
     background-color: white;
     height: 210px;
     transition: 0.5s;
@@ -345,7 +345,7 @@ div h4{
 }
 
 .position-photos2{
-    margin: 0 30px 0 30px;
+    margin: 0 15px 0 15px;
     border-radius: 20px 20px 20px 20px;
 }
 
@@ -412,22 +412,22 @@ footer div{
 footer p:hover {
     cursor: pointer;
 }
+
 /*RESPONSIVE DESKTOP*/
-
-@media all and (min-width:1281px) and (max-width:2000px) {
-    
-   
-    
+@media all and (max-width:1600px) {
+    .recherche2 {
+        display: none;
+    }
 }
-
-
-
 
 /*RESPONSIVE TABLETTES*/
 
 @media all and (min-width:600px) and (max-width:1280px) {
     .logo-header {
         margin-left: 50px;
+    }
+    .recherche2 {
+        display: none;
     }
     .bloc4 {
         min-width: 100%;
@@ -526,7 +526,6 @@ footer p:hover {
         margin: 30px 44px 0 30px;
     }
     
-
 }
 
 /*RESPONSIVE TELEPHONES*/
@@ -580,18 +579,15 @@ footer p:hover {
         
     }
     .conteneur-recherche2 {
-        display: flex;
-        align-items: center;
-        
         color: white;
-        display: inline;
-        transition: 0.5s;
         height: 50px;
-        width: 10%;
-        border-radius: 0 10px 10px 0;
+        width: 12%;
+        border-radius: 15px;
         text-align: center;
-        justify-content: center;
         background-color: #0065FC;
+        line-height: 50px;
+        position: relative;
+        right: 13px;
     }
 
     /*titre, recherche,filtres,info*/
