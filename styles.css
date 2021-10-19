@@ -1,4 +1,5 @@
 /*general*/
+
 body {  
     font-family: 'Raleway', sans-serif;
     margin: 0;
@@ -258,8 +259,6 @@ article p{
     padding-top: 20px;
 }
 
-
-
 /*HEBERGEMENT POPULAIRE*/
 
 .bloc4{
@@ -414,6 +413,7 @@ footer p:hover {
 }
 
 /*RESPONSIVE DESKTOP*/
+
 @media all and (max-width:1600px) {
     .recherche2 {
         display: none;
@@ -623,6 +623,7 @@ footer p:hover {
     }
     
     /*Les plus populaires, Hébergements à Marseille*/
+
     .bloc4 {
         width: 100%;
         padding: 0;
@@ -679,6 +680,7 @@ footer p:hover {
     }
 
     /*Activités à Marseille*/
+
     .p-activites {
         margin-left: 25px;
     }
@@ -715,18 +717,13 @@ footer p:hover {
         height: 188px;
     }
     /*footer*/
+
     .footer {
         height: auto;
     }
     footer div {
         margin-right: 20px;
     }
-
-
-
-
-
-
 }
     
     
